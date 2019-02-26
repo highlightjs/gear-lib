@@ -6,7 +6,7 @@ var Blob = require('gear').Blob,
         min: '.bar{display:none}',
         cleancssmin: '.bar{display:none}',
         less: new Blob('@color: #FF0;\ndiv { color: @color; }'),
-        compiled: 'div {\n  color: #ffff00;\n}\n'
+        compiled: 'div {\n  color: #FF0;\n}\n'
     };
 
 describe('cssminify()', function() {
